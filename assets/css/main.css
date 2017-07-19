@@ -1995,11 +1995,11 @@
 
 	#footer {
 		position: relative;
-		height: 5em;
-		line-height: 5em;
+		height: 3em;
+		line-height: 3em;
 		margin: 0;
 		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		color: rgba(27, 31, 61, 0.95);
 		overflow: hidden;
 	}
 
