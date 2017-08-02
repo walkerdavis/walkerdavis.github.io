@@ -1746,8 +1746,8 @@
 
 				#header nav {
 					position: absolute;
-					right: 0.5em;
-					top: 0;
+					right: 0em;
+					top: 1;
 					height: 4em;
 					line-height: 4em;
 				}
