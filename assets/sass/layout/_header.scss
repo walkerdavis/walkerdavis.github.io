@@ -63,7 +63,7 @@
 			height: 2.5em;
 			line-height: 2.5em;
 
-			nav {
+			h1 {
 				text-align: center;
 				position: relative;
 				left: 0;
@@ -71,12 +71,12 @@
 				height: 2.5em;
 				line-height: 2.5em;
 
-				a {
+				h1 a {
 					font-size: 1em;
 				}
 			}
 
-			h1 {
+			nav {
 				display: none;
 			}
 		}
