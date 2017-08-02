@@ -2089,7 +2089,8 @@
 				}
 
 				#footer ul.menu li a {
-					line-height: 1.5em;
+					/* walker changed from 1.5*/
+					line-height: 0em;
 				}
 
 		}
