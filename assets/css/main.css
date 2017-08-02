@@ -2079,7 +2079,7 @@
 			#footer ul.menu li {
 				border-left: 0;
 /*walker changed from 1 0 0 0 */
-				padding: 1em 1em 1em 1em;
+				padding: .25em .25em .25em .25em;
 				margin: 0;
 				display: block;
 			}
