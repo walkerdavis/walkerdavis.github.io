@@ -2050,7 +2050,8 @@
 				height: auto;
 				line-height: inherit;
 				text-align: center;
-				padding: 2em 1em 2em 1em;
+				//change from 2 1 2 1
+				padding: 1em 1em 1em 1em;
 			}
 
 				#footer ul.actions {
