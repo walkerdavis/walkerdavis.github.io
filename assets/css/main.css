@@ -2130,7 +2130,8 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/cow1.JPG");
+		background: url("../../images/cow1.JPG");
+		<!-- url("images/overlay.png"), -->
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
