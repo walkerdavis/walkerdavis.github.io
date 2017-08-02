@@ -1725,7 +1725,18 @@
 				line-height: 2.5em;
 			}
 
+
+/* walker switched #header h1 and #header nav */
 				#header h1 {
+display: none;
+				}
+
+
+					/*#header h1 a {
+						font-size: 1em;
+					}*/
+
+				#header nav {
 					text-align: center;
 					position: relative;
 					left: 0;
@@ -1734,12 +1745,8 @@
 					line-height: 2.5em;
 				}
 
-					#header h1 a {
-						font-size: 1em;
-					}
-
-				#header nav {
-					display: none;
+				#header nav a {
+					font-size: 1em;
 				}
 
 		}
