@@ -1827,7 +1827,7 @@
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 6em;
 				line-height: 1em;
 			}
 
@@ -2133,7 +2133,7 @@
 		background: url("images/overlay.png"), url("../../images/cow4.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 	}
 
