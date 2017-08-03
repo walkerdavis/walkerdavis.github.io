@@ -1723,7 +1723,7 @@
 			#header {
 				height: 4em;
 				line-height: 2em;
-				background: rgba(27, 31, 61, 0.95);
+				background: rgba(27, 31, 61, 1);
 			}
 
 				#header h1 {
@@ -1746,8 +1746,10 @@
 
 
 				#header nav {
+					text-align: center; /* from #header h1*/
 					position: absolute;
-					right: 1em;
+					/*right: 1em;*/
+					left: 0;
 					top: 0;
 					height: 4em;
 					line-height: 6em;
