@@ -1829,7 +1829,6 @@
 			.main.style1 h2 {
 				font-size: 2em;
 				line-height: 1em;
-				height: 80%;
 			}
 
 			.main.style1 > .content {
@@ -1984,7 +1983,7 @@
 			}
 
 				.main.style1 h2 {
-					font-size: 3em;
+					font-size: 1em;
 				}
 
 			.main.style2 {
