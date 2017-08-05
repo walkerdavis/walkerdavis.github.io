@@ -2081,9 +2081,9 @@
 		@media screen and (max-width: 1000px) {
 
 			#footer {
-				height: 3em;
-				line-height: 3em;
-
+				height: auto;
+				line-height: 2em;
+				text-align: center;
 /* walkered changed from 2 1 2 1 */
 				padding: 1em 1em 1em 1em;
 			}
