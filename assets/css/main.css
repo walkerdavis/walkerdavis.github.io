@@ -2082,10 +2082,9 @@
 
 			#footer {
 				height: auto;
-				line-height: 2em;
+				line-height: inherit;
 				text-align: center;
-/* walkered changed from 2 1 2 1 */
-				padding: 1em 1em 1em 1em;
+				padding: 2em 1em 2em 1em;
 			}
 
 				#footer ul.actions {
@@ -2093,10 +2092,10 @@
 					text-align: center;
 					left: 0;
 					bottom: 0;
-					height: 3em;
-					line-height:0em;
+					height: auto;
+					line-height: inherit;
 /*walker changed from 0 0 1 0 */
-					margin: 1em 1em 1em 1em;
+					margin: 0 0 1em 0;
 				}
 
 				#footer ul.menu {
@@ -2104,7 +2103,7 @@
 					text-align: center;
 					right: 0;
 					top: 0;
-					height: inherit;
+					height: auto;
 					line-height: inherit;
 				}
 
@@ -2126,7 +2125,7 @@
 
 				#footer ul.menu li a {
 					/* walker changed from 1.5*/
-					line-height: 0em;
+					line-height: 1.5em;
 				}
 
 		}
