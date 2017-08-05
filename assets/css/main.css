@@ -2090,7 +2090,7 @@
 
 				#footer ul.actions {
 					position: relative;
-					text-align: left;
+					text-align: center;
 					left: 0;
 					bottom: 0;
 					height: 3em;
@@ -2101,7 +2101,7 @@
 
 				#footer ul.menu {
 					position: relative;
-					text-align: right;
+					text-align: center;
 					right: 0;
 					top: 0;
 					height: inherit;
