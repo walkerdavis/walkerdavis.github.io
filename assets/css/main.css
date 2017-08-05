@@ -2082,7 +2082,7 @@
 
 			#footer {
 				height: 3em;
-				line-height: 3em;
+				line-height: 1.5em;
 
 /* walkered changed from 2 1 2 1 */
 				padding: 1em 1em 1em 1em;
@@ -2093,7 +2093,7 @@
 					text-align: left;
 					left: 0;
 					top: 0;
-					height: auto;
+					height: inherit;
 					line-height: inherit;
 /*walker changed from 0 0 1 0 */
 					margin: 1em 1em 1em 1em;
@@ -2104,7 +2104,7 @@
 					text-align: right;
 					right: 0;
 					top: 0;
-					height: auto;
+					height: inherit;
 					line-height: inherit;
 				}
 
