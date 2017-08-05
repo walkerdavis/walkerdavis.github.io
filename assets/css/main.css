@@ -1721,6 +1721,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
+				position: fixed;
 				height: 4em;
 				line-height: 2em;
 				background: rgba(27, 31, 61, 1);
