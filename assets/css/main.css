@@ -1928,7 +1928,7 @@
 		}
 
 			.main.dark a {
-				color: inherit;
+				color: rgba(255, 255, 255, 0.125);
 			}
 
 			.main.dark .button.style2 {
