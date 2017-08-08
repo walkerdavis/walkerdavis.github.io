@@ -2162,7 +2162,7 @@
 /* Three */
 
 	#three {
-		background: url("images/overlay.png"), url("../../images/cowOrange.JPG");
+		background: url("images/overlay.png"), url("../../images/cowGreen.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2180,7 +2180,7 @@
 		/* Five */
 
 		#five {
-			background: url("images/overlay.png"), url("../../images/cowGreen.JPG");
+			background: url("images/overlay.png"), url("../../images/cowOrange.JPG");
 			background-size: 256px 256px, cover;
 			background-attachment: fixed, fixed;
 			background-position: top left, center center;
