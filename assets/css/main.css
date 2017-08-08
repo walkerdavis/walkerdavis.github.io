@@ -1916,7 +1916,7 @@
 			}
 
 			.main.style3.primary {
-				background: rgba(255, 255, 255, 0.125);
+				background: #ffffff;
 			}
 
 			.main.style3.secondary {
@@ -1924,15 +1924,15 @@
 			}
 
 		.main.dark {
-			color: rgba(255, 255, 255, 0.125);
+			color: #ffffff;
 		}
 
 			.main.dark a {
-				color: rgba(255, 255, 255, 0.125);
+				color: inherit;
 			}
 
 			.main.dark .button.style2 {
-				border-color: rgba(255, 255, 255, 0.125);
+				border-color: #ffffff;
 			}
 
 				.main.dark .button.style2:hover {
