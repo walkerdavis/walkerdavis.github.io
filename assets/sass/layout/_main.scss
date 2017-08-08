@@ -40,7 +40,7 @@
 			> .content {
 				@include vendor('transition', 'opacity #{_duration(fade-in)} ease');
 				@include vendor('transform', 'translateZ(0)');
-				opacity: 1.0;
+				opacity: .5;
 				margin: 0;
 			}
 
