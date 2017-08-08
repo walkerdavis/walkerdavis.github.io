@@ -2184,9 +2184,6 @@
 			background-size: 256px 256px, cover;
 			background-attachment: fixed, fixed;
 			background-position: top left, center center;
-
-			header.background: rgba(37, 46, 119, 0.9);
-			header.color: rgba(53, 234, 132, 0.75);
 			}
 		}
 
