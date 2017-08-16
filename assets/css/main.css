@@ -1562,7 +1562,7 @@
 		/*background-image: url("images/bg01.png");*/
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
-		color: #565656;
+		color: #BDC3C7;
 	}
 
 		body.is-loading * {
@@ -1595,13 +1595,13 @@
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-size: 40;
 		font-weight: 700;
-		color: #565656;
+		color: #F2F3F4;
 	}
 
 	h2, h3, h4, h5, h6 {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
-		color: #565656;
+		color: #BDC3C7;
 	}
 
 	h2 a, h4 a, h5 a, h6 a {
@@ -2252,7 +2252,7 @@
 /*copyright text*/
 	#sidebar {
 		color: #aaa;
-		color: rgba(255, 255, 255, 0.55);
+		color: #BDC3C7;
 		text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
 		width: 14em;
 		padding: 3em 1.35em 1em 1.15em;
@@ -2324,11 +2324,12 @@
 	}
 
 		#copyright p {
-			opacity: 0.75;
+			/*opacity: 0.75;*/
+			color: #BDC3C7;
 		}
 
 		#copyright a {
-			color: inherit !important;
+			color: #BDC3C7;
 		}
 
 		#copyright:before {
