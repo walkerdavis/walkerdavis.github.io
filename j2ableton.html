@@ -25,13 +25,88 @@
 							<br>
 							<br> -->
 
-							<article class="box post post-excerpt">
+							<!-- <article class="box post post-excerpt">
 								<header>
 									<h2>Ableton</h2>
 									<p>Coming soon.</p>
 								</header>
-								<!-- <div class="info"> -->
-							</article>
+								<div class="info">
+							</article> --> 
+
+
+							<!-- Post -->
+								<article class="box post post-excerpt">
+									<header>
+										<h2><a href="#">BeethovenBoy's Lair Tutorial #1<br>
+											 Splitting a Stereo Track to Left and Right Channels</a></h2>
+									</header>
+
+
+									<div class="videoWrapper">
+										<iframe width="100%" height="auto" src="https://www.youtube.com/embed/15MnoMdtjow" frameborder="0" allowfullscreen></iframe>
+									</div>
+
+									<br>
+
+									<p>
+										This Ableton Project and Audio Effect Rack will allow you to split a stereo file, isolating the right and left channels.  This video was written for Ableton 9.7; previous (and future) versions may require a few different steps.
+											<br>
+											<br>
+
+
+									1. Import your stereo audio file to an empty Audio Track
+									<br>
+									<br>
+									2. Setup the Tracks<br>
+									-Create 3 Audio Tracks; rename them 1-Stereo, 2-Left and 3-Right<br>
+									-Hard pan the 2-Left completely to the left, and the 3-Right track completely to the right
+									<br>
+									<br>
+									3. Create reusable ‘Stereo Splitter’ Audio Effect Rack<br>
+									-Bring in an Empty Audio Effect Rack to the 1-Stereo Track, rename it ‘Stereo Splitter’<br>
+									-Create Two “Chains” by dragging in two instances of Ableton’s Utility Audio Effect, rename them ‘Left’ and ‘Right’<br>
+									-In First Chain/Utility, select ‘Left’ in the Utility-Channel Mode dropdown menu<br>
+									-In Second Chain/Utility, select ‘Right’ in the Utility-Channel Mode dropdown menu<br>
+									-(optional) Press the Floppy Disc Icon and save to your User Library
+									<br>
+									<br>
+									4. Adjust Ableton’s internal track routing<br>
+									-On the 2-Left track, adjust both ‘Audio From’ dropdown menus<br>
+									-From ‘Ext. In’ to ‘1-Stereo’<br>
+									-From ‘1’ to ‘Stereo Splitter | Left | Post FX’<br>
+									-Set the Channel Monitor to ‘Auto’
+									<br>
+									<br>
+									-On the 3-Right track, adjust both ‘Audio From’ dropdown menus<br>
+									-From ‘Ext. In’ to ‘1-Stereo’<br>
+									-From ‘1’ to ‘Stereo Splitter | Right | Post FX’<br>
+									-Set the Channel Monitor to ‘Auto’
+									<br>
+									<br>
+									5. Arm 2-Left and 3-Right tracks<br>
+									-To arm multiple tracks, Command-click
+									<br>
+									<br>
+									6. Check to make sure everything is working<br>
+									-Mute the 1-Stereo track<br>
+									-If 2-Left and 3-Right do not play, or if they are the same, you have likely made an error somewhere in the steps above
+									<br>
+									<br>
+									7. Record<br>
+									-In 2-Left and 3-Right, set empty clips to record<br>
+									-Launch you stereo file/clip on 1-Stereo
+									<br>
+									<br>
+									<br>
+									Things to consider:  <br>
+									<br>
+									This is not a perfect solution.  This method does not leave you with two mono tracks, but rather gives you two distinct stereo files that contain identical right and left information.  Notice that both the 2-Left and 3-Right tracks display stereo meters, not a single mono meter.
+									<br>
+									<br>
+									Audacity does allow you to split stereo files to mono files with one right-click.
+
+
+									</p>
 
 
 
