@@ -35,6 +35,238 @@
 							</article>
 
 
+
+
+							<article class="box post post-excerpt">
+								<header>
+									<h2>Creative Side-Chaining and Envelope Following Part 4: Filtering</h2>
+
+								</header>
+
+								<p>
+									The Auto Filter does not provide any visual feedback of its own, so I will have Ableton’s Spectrum Audio Effect/Tool to illustrate what I am demonstrating.
+									<br>
+
+									(The Auto Filter in Ableton 9.7 does have a ‘Drive’ parameter that does effect Gain/Amplitude when you select something other than the ‘Clean’ Filter Type, but I will not be discussing it here.)<br>
+									<br>
+									<br>
+
+
+									1. Configure ‘Chainer’ and ‘Chained’ signal(s). <br>
+									-Sounds that have short attack-times, like kick and snare drums, work really well for ‘Chainer’ signals.<br>
+									-Longer sounds like guitar, keyboards, synths, and reverbs work well as ‘Chained’ signals.<br>
+									-Grouping multiple Audio and MIDI tracks together, Command-G, will allow you to make the effect more obvious.<br>
+									<br>
+
+									2. Put the Auto Filter Audio Effect on the ‘Chained’ track or group<br>
+									<br>
+
+									3. Routing within the Auto Filter<br>
+									-Press the Arrow icon in the top left of the Audio Filter Audio Effect<br>
+									-Press the ‘SideChain’ button, it is On when the button is Yellow<br>
+									-In the dropdown menu, select the ‘Chainer’ track<br>
+									<br>
+
+									4. Input Parameters<br>
+									<u>Gain</u> will control how much the ‘Chainer’ signal effects the Auto Filter<br>
+									<br>
+
+									5. Filter Parameters<br>
+									<u>Frequency</u> specifies the Cutoff Frequency of the Auto Filter before the Side-Chain processing happens(or if Side-Chain is turned off)<br>
+									<u>Resonance</u> adjusts the Gain Boost at the Cutoff Frequency<br>
+									-Both of these parameters can be adjusted with the knobs, or by dragging the Yellow ball around the grid<br>
+									<br>
+
+									6. Envelope Parameters<br>
+									<u>Envelope</u> specifies how far the Cutoff Frequency will be moved<br>
+									-When at 0, top and center, the Auto Filter will not react or move<br>
+									-When moved counterclockwise towards -127, the Cutoff Frequency will be decreased <br>
+									-When moved clockwise towards 127, the Cutoff Frequency will be increased<br>
+									<u>Attack</u> specifies how long it will take the Cutoff Frequency to move the amount specified by the ‘Envelope’ parameter<br>
+									<u>Release</u> specifies how long it will take the Cutoff Frequency to return to the position specified by ‘Frequency’ and ‘Resonance’ parameters<br>
+									<br>
+
+									7. Experiment!<br>
+									Throw a low-pass filter on the master track and side-chain it to the kick!<br>
+
+
+								<p/>
+
+
+								<div class="info">
+									<span class="date"><span class="month">Sep<span></span></span> <span class="day">8</span><span class="year">, 2017</span></span>
+								</div>
+
+						<!-- </div> -->
+						</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<article class="box post post-excerpt">
+								<header>
+									<h2>Creative Side-Chaining and Envelope Following Part 3: Gating</h2>
+
+								</header>
+
+								<p>
+									1. Configure ‘Chainer’ and ‘Chained’ signal(s). <br>
+									Sounds that have short attack-times, like kick and snare drums, work really well for ‘Chainer’ signals.<br>
+									Longer sounds like guitar, keyboards, synths, and reverbs work well as ‘Chained’ signals.<br>
+									Grouping multiple Audio and MIDI tracks together, Command-G, will allow you to make the effect more obvious.<br>
+									<br>
+
+									2. Put the Gate Audio Effect on the ‘Chained’ track or group<br>
+									<br>
+
+									3. Routing within the Gate<br>
+									Press the Arrow icon in the top left of the Gate Audio Effect<br>
+									Press the ‘SideChain’ button, it is On when the button is Yellow<br>
+									In the dropdown menu, select the ‘Chainer’ track<br>
+									<br>
+
+									4. Input Parameters<br>
+									<u>Threshold</u> determines the minimum amplitude value at which the Gate will open<br>
+									<u>Return</u> sets the value at which the Gate will close.  This amplitude value is relative to the Threshold value, <br>
+									<u>Flip</u> reverses the Gate’s On/Off status.  When the input/‘Chainer signal exceeds the set Threshold, the Gate is now turned Off instead of On<br>
+									<br>
+
+									5. Envelope Parameters<br>
+									<u>Attack</u> specifies how long it will take for the ‘Chained’ signal to reach its full amplitude<br>
+									<u>Hold</u> specifies how long this amplitude will be sustained<br>
+									<u>Release</u> specifies the time it will take for the amplitude to return to its ‘Floor’ value once the Gate has been closed<br>
+									<u>Floor</u> specifies a resting amplitude for the ‘Chained’ signal.  If you do not want to hear it at all, set it to negative infinity.<br>
+									<br>
+
+									6. Experiment!<br>
+									Set up multiple ‘Chained’ tracks/groups, put identical Gates on each of them(Copy and Paste with Command-C), select Flip on some of them...<br>
+									<br>
+									<br>
+
+
+									Traditionally, gates are used to clean up an electric signal by removing the low-level hum that is present whenever a noisy guitar or keyboard is plugged in.  This is done by setting the amplitude threshold of the gate above the amplitude of this hum.  When the player strums, plucks, or hits a key, the instrument’s output volume, a significantly louder sound than that of the hum, open’s the gate and the signal is let through.  Similar to the Side-Chain Compression tutorial, the method I described is more of a creative technique that might get you some interesting results.
+								<p/>
+
+
+								<div class="info">
+									<span class="date"><span class="month">Sep<span></span></span> <span class="day">8</span><span class="year">, 2017</span></span>
+								</div>
+
+						<!-- </div> -->
+						</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<article class="box post post-excerpt">
+								<header>
+									<h2>Creative Side-Chaining and Envelope Following Part 2: Compression</h2>
+
+								</header>
+
+								<p>
+								1. Configure ‘Chainer’ and ‘Chained’ signal(s).<br>
+								-Sounds that have short attack-times, like kick and snare drums, work really well for ‘Chainer’ signals.<br>
+								-Longer sounds like guitar, keyboards, synths, and reverbs work well as ‘Chained’ signals.<br>
+								-Grouping multiple Audio and MIDI tracks together, Command-G, will allow you to make the effect more obvious.<br>
+								<br>
+
+								2. Put a Compressor Audio Effect on the ‘Chained’ track or group<br>
+								<br>
+
+								3. Routing within the Compressor<br>
+								Press the Arrow icon in the top left of the Compressor Audio Effect<br>
+								Press the ‘SideChain’ button, it is On when the button is Yellow<br>
+								In the dropdown menu, select the ‘Chainer’ track<br>
+								<br>
+
+								4. Compression Parameters<br>
+								<u>Threshold</u> sets the minimum amplitude value that will be compressed.  Frequency content from the ‘Chained’ signal that is louder than the ‘Threshold’ value will have compression applied to it.<br>
+								<u>Output</u> applies gain to the signal after it has been compressed<br>
+								<u>Ratio</u> determines how much compression will be applied when the signal’s amplitude is above the threshold<br>
+								<br>
+
+								5. Envelope Parameters<br>
+								<u>Attack</u> specifies how fast the amplitude/output level of ‘Chained’ signal will be decreased<br>
+								<u>Release</u> specifies how long it will take the ‘Chained’ signal to return to normal amplitude/output<br>
+								<br>
+
+
+								6. Input Parameters<br>
+								<u>Gain</u> adjusts how much the ‘Chainer’ signal will affect the Compressor<br>
+								<u>EQ</u> allows you to specify which frequencies of the ‘Chainer’ signal will apply Side-Chain compression<br>
+								-To Side-Chain everything to a kick drum, Select the Low-Pass Filter Type and set the Cutoff Frequency to 100 Hz<br>
+								<br>
+
+								7. Experiment!<br>
+								For very extreme effects, you can side-chain the master stereo output track to a single track!<br>
+								You can also mute the ‘Chainer’ track<br>
+								<br>
+								<br>
+
+
+								Traditionally, side-chain compression has been used to achieve greater control in a mix.  For instance, side-chaining the bass to the kick drum prevents the mix from becoming muddy and potentially out of phase in that frequency area.  The approach I described above is more of a creative and reactive approach that might give you unnatural and extreme results.  I would approach side-chain compression for mixing purposes a little bit differently.  (Hopefully that tutorial will be ready soon!)
+
+
+								<p/>
+
+
+								<div class="info">
+									<span class="date"><span class="month">Sep<span></span></span> <span class="day">6</span><span class="year">, 2017</span></span>
+								</div>
+
+						<!-- </div> -->
+						</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 							<article class="box post post-excerpt">
 								<header>
 									<h2>Creative Side-Chaining and Envelope Following Part 1: Overview</h2>
