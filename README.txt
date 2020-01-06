@@ -1,3 +1,3 @@
-This is my personal website.  I used the 'Striped' template by HTML5.  The original 'Striped' README is below.
+This is a placeholder for my personal website.  Nothing here right now, perhaps soon.
 
--Walker Davis
+-Walker 1/5/20
